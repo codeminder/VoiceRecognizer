@@ -12,6 +12,7 @@ def main():
         print("say now!")
         audio = r.listen(source)
         print(r.recognize_google(audio))
+        
 
 if __name__ == "__main__":
     main()
